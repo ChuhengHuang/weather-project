@@ -10,11 +10,11 @@ namespace InterviewProject.Controllers
 {
     [ApiController]
     [Route("[controller]")]
-    public class MetaWeatherController : ControllerBase
+    public class WeatherLocationController : ControllerBase
     {
-        private readonly ILogger<MetaWeatherController> _logger;
+        private readonly ILogger<WeatherLocationController> _logger;
 
-        public MetaWeatherController(ILogger<MetaWeatherController> logger)
+        public WeatherLocationController(ILogger<WeatherLocationController> logger)
         {
             _logger = logger;
         }

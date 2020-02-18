@@ -117,7 +117,6 @@ export class WeatherLocation extends Component {
         const data = await response.json();
 
         this.setState({ locations: data, locationLoading: false });
-
     }
 
     async queryWeather(cityId) {
